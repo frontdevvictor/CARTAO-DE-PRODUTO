@@ -85,5 +85,40 @@ body {
 
 .card:hover .product_img {
     transition-delay: 0.75s;
-    
+    top: 25%;
+    left: 75%;
+    height: 530px;
+    transform: translate(-50%, -50%) scale(1) rotate(15deg);
+}
+
+.card .content {
+    position: absolute;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 20px;
+    opacity: 0.5s;
+    visibility: hidden;
+}
+
+.card .content h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+
+.card .content p {
+    color: #fff;
+}
+
+.card .content a {
+    position: relative;
+    color: #fff;
+    background: #d52b1e;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 10px;
 }
